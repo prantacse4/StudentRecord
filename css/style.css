@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Lobstar|Patua+One|Rubik|Sniglet');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gugi&family=Lato:wght@400;700&family=Roboto:wght@300;400&family=Sofia&display=swap');
+
+/*Variable */
+
+:root {
+    --primary-color: #00334e;
+    --roboto: "Roboto", sans-serif;
+    --sofia: "Sofia", cursive;
+    --rubik: 'Rubik', sans-serif;
+    --snigle: "Sniglet", cursive;
+    --rubik: "Rubik", cursive;
+    --patua: "Patua One", cursive;
+    --lobstar: "Lobstar", cursive;
+    --divback: #ffefe5;
+    --bggrad: linear-gradient(to bottom, #145374, #00334e);
+}
+
+.card-header {
+    background: var(--bggrad);
+    border-radius: 3px;
+    font-family: var(--rubik);
+}
